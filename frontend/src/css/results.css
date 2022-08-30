@@ -1,0 +1,53 @@
+/* CSS used to style the Results Component */
+
+.card {
+  height: 250px;
+  width: max-content;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.61) !important;
+  color: black;
+  border: 2px solid #000000;
+  border-radius: 15px !important;
+}
+
+.card-body > .card-text {
+  display: inline-block;
+}
+
+.results-image {
+  padding: 20px;
+  height: 200px;
+  width: 200px;
+}
+
+#info-btn {
+  background: rgb(255, 42, 42);
+  border: 2px solid white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+#info-btn:hover {
+  color: black;
+}
+
+#add-btn {
+  background: rgb(197, 70, 255);
+  border: 2px solid white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+#add-btn:hover {
+  color: black;
+}
