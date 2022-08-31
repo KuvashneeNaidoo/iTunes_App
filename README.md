@@ -139,12 +139,16 @@ REACT_APP_API_KEY = (add your key code here)
 ## Usage
 
 - The Navigation appears above the Searchbar. The user is able to navigate between the home page and their list of favourite media items.
+![Navigation](https://user-images.githubusercontent.com/105747929/187803110-105653e5-f998-452f-9997-74c30397c3e9.png)
 
 - The user can type in their search request in the input field and also select a specific category of their choice. After clicking on the search icon, the results will appear.
+![Search](https://user-images.githubusercontent.com/105747929/187803136-3a720640-2d72-4b8c-a9b6-9b9465c341a4.png)
 
 - When viewing the search results, the user can add items to their favourites list by clicking on the "LIKE" button or view more information about the media by clicking on the "MORE INFO" button.
+![Add Favourite](https://user-images.githubusercontent.com/105747929/187803167-63e8cfa2-929f-48a5-8f23-1588d92ff392.png)
 
 - To remove items from the favourites list, navigate to the favourites pages and click on the "DELETE" button.
+![Delete](https://user-images.githubusercontent.com/105747929/187803200-22e23e91-1e1c-42ba-916d-00c98410127a.png)
 
 ## Notice:
 
