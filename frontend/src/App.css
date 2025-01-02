@@ -1,0 +1,8 @@
+/* Styling for entire layout */
+* {
+  font-family: "Space Mono", monospace;
+  cursor: pointer;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
