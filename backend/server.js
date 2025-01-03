@@ -21,6 +21,13 @@ app.use(helmet());
 // Use the routes to enable the API.
 app.use("/search", routes);
 
+// Add route for favourites
+app.get("/favourites", (req, res) => {
+  // Serve the favourites list (from local storage, could be updated with DB integration later)
+  const favourites = JSON.parse(localStorage.getItem("Favourites")) || [];
+  res.json(favourites);
+});
+
 // Ensure Express server accesses the project data using the body-parser middleware.
 const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: true }));
